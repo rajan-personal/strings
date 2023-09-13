@@ -5,4 +5,4 @@ flutter build web --release
 cd ..
 cp -r strings/build/web/* docs
 cd docs
-echo "strings.dev" >> CNAME
+echo "tflow.dev" >> CNAME
