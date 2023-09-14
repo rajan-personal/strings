@@ -109,6 +109,13 @@ class _DealListState extends State<DealList> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text('Ongoing Deals',
+                  style: TextStyle(
+                    fontSize: 20,
+                    decoration: TextDecoration.underline,
+                ))),
                 ListDeal(),
                 ListDeal(),
                 ListDeal(),
